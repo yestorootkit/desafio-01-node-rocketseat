@@ -22,3 +22,4 @@ Run with `npm run dev`
 {"title":"Title changed","description":"Description changed"}
 ```
 * To complete an Task `PATCH => /tasks/:id/complete`
+* To delete an Task `DELETE => /tasks/:id`
