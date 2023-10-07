@@ -1,10 +1,13 @@
 # Desafio 01 Node - Rocketseat
 
 ## Dependencies used
-* This project use Native Libraries from [nodejs](https://nodejs.org/en) version 18.17.1
+* [nodejs](https://nodejs.org/en) version 18.17.1
+* [csv-parse](https://www.npmjs.com/package/csv-parse) version 5.5.1
 
 ## How to run?
-Run with `npm run dev`
+First run `npm install`
+Run the project with `npm run dev`
+* You can import Tasks in mass via csv using `npm run mass` with the server running
 
 ## API Routes
 * To list tasks: `GET => /tasks`
